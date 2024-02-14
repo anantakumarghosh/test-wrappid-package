@@ -18,4 +18,4 @@ jobs:
 
       - name: Run Node script
         run: |
-          console.log("Hello, world!");
+          console.log('Hello, world!');
