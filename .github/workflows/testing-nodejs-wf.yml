@@ -1,3 +1,4 @@
+name: Run Node Script
 on:
   workflow_dispatch:
 
