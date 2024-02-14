@@ -16,7 +16,7 @@ jobs:
         run: npm ci
 
       - name: Run Node script
-run: |
-  console.log("Hello, world!");
-  const sum = 2 + 3;
-  console.log("Sum:", sum);
+        run: |
+          console.log("Hello, world!");
+          const sum = 2 + 3;
+          console.log("Sum:", sum);
