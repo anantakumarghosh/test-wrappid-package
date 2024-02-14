@@ -16,6 +16,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Show working directory and list files
+        run: echo $PWD && ls -al
+        
       - name: Run Node script
-        run: |
-          console.log('Hello, world!');
+        run: node .github/scripts/nodescripts/helloworld.js
